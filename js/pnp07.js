@@ -12,8 +12,6 @@ var icons = [
 	'http://labs.google.com/ridefinder/images/mm_20_blue.png',
 	'http://labs.google.com/ridefinder/images/mm_20_red.png',
 	'http://maps.google.com/mapfiles/ms/micons/yellow.png'
-//	'http://maps.google.com/mapfiles/ms/micons/blue.png',
-//	'http://maps.google.com/mapfiles/ms/micons/red.png',
 ];
 var lat, lon = 0;
 var latlng, center, geocoder;
@@ -545,6 +543,7 @@ function deletePoint() {
 	});
 	
 };
+
 function addLink( linkURI, homepage){
 	helpOptions = {
 		position: 'center',
