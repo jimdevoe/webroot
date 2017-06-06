@@ -336,7 +336,7 @@ function displayPoint(markerIndex){
 	map2.setCenter(ctr);
 	google.maps.event.trigger(map2, 'resize');
   	window.location.hash = recordID;
- 	getReverseGeocode(latlng);
+// 	getReverseGeocode(latlng);
 //	getWeather();  		
 }
 
