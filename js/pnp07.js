@@ -247,9 +247,6 @@ function displayPoint(markerIndex){
 		var logoutLink = "'/cake3/users/logout'";
 		$('#login1').html('<a href="#" id="logout" onclick="location.href='+logoutLink+'">logout '+username+'</a><br>');
 	
-		google.maps.event.addListener(m, 'click', function() {
-			alert('marker');
-		});
 		
 		$("#editPlace").click(function(){
 			$( '#place' ).css('visibility','visible');
