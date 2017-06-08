@@ -1,3 +1,4 @@
+// testing comment
 var animaldb = '';
 var autoSearch = true;
 var centerMarker;
